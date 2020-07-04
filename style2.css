@@ -1,0 +1,386 @@
+/***************************************  START of Body and Generals *******************************************/
+body
+{
+    margin:0px , 0px , 0px , 0px ;
+    z-index: 0;
+    
+}
+body>a:hover
+{
+    text-decoration: none;
+}
+.btn
+{
+    font-family: Righteous;
+    font-size: 20px;
+}
+
+
+
+/* .load
+{
+    background: #222;
+    color:#FFF;
+    position:fixed;
+    left:0;
+    right:0;
+    width:100%;
+    height:100%;
+    z-index:9999 !important;
+}
+
+
+
+.loader {
+    width: 20em;
+    height: 20em;
+    font-size: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    top:40%;
+}
+
+.loader .face {
+    position: absolute;
+    border-radius: 50%;
+    border-style: solid;
+    animation: animate 3s linear infinite;
+}
+
+.loader .face:nth-child(1) {
+    width: 100%;
+    height: 100%;
+    color: gold;
+    border-color: currentColor transparent transparent currentColor;
+    border-width: 0.2em 0.2em 0em 0em;
+    --deg: -45deg;
+    animation-direction: normal;
+}
+
+.loader .face:nth-child(2) {
+    width: 70%;
+    height: 70%;
+    color: lime;
+    border-color: currentColor currentColor transparent transparent;
+    border-width: 0.2em 0em 0em 0.2em;
+    --deg: -135deg;
+    animation-direction: reverse;
+}
+
+.loader .face .circle {
+    position: absolute;
+    width: 50%;
+    height: 0.1em;
+    top: 50%;
+    left: 50%;
+    background-color: transparent;
+    transform: rotate(var(--deg));
+    transform-origin: left;
+}
+
+
+@keyframes animate {
+    to {
+        transform: rotate(1turn);
+    }
+} */
+
+
+
+
+.optionBox
+{
+    position: fixed;
+    top:200px;
+    left:0;
+    z-index: 999;
+}
+
+.optionBox .colorOption
+{
+    /*float:left;*/
+    background: #333;
+    color:#FFF;
+    padding-top: 20px;
+    padding-left:4px;
+    padding-right:4px;
+    width:30px;
+    display:none;
+}
+
+.optionBox .colorOption ul li
+{
+    width:20px;
+    height:20px;
+    display:block;
+    margin-right:3px;
+    margin-bottom: 5px;
+    
+}
+.optionBox .gearCheck
+{
+    padding:5px;
+    color:#FFF;
+    cursor: pointer; 
+}
+/***************************************  end of body  *******************************************/
+
+/***************************************  START of nav bar  *******************************************/
+#container-home
+{
+    position: fixed;
+    padding: 10px;
+    text-align: center;
+}
+
+#navbar-example2
+{
+    list-style-type: none;
+    position: fixed;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.4); 
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 10px;
+    z-index: 999;
+    font-size: 10px;
+}
+#navbar-example2:active
+{
+    color: aqua;
+}  
+
+
+#navbar-example2 ul
+{
+color: aqua;
+}
+
+#logo
+{
+    margin-left: 150px;
+    color: aqua;
+    font-size: 35px;
+    /* font-weight: bold; */
+    font-family: Righteous;
+}
+
+.nav-link
+{
+    color: aqua;
+    background-color: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+.nav-link
+{
+    font-family: Nunito;
+    font-size: 18px;
+}
+
+.nav-link:hover
+{
+    font-family: Nunito;
+    font-size: 18px;
+    color: white;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #FFF;
+    background-color: transparent
+}
+/**********************************  END of nav bar  *******************************/
+
+/**********************************  START of Home part Carousel *******************************/
+#getStarted
+{
+    color: white;
+    background-color: aqua;
+    border-color: aqua;
+}
+#getStarted:hover
+{
+    background-color: black;
+    border-color: black;
+}
+/**********************************END of home part Carousel *******************************/
+
+/**********************************start of properties part  *******************************/
+
+.card
+{
+    box-shadow: 5px 10px #a7a7a7;
+}
+
+.ftco-media-details
+{
+    font-family: Calistoga;
+}
+
+#HD
+{
+    font-family: Montserrat Subrayada;
+    text-decoration: none;
+}
+
+/**********************************end of properties part  *******************************/
+/**********************************start of agents part  *******************************/
+.section-title
+{
+    color: aqua;
+}
+#agent1
+{
+    z-index: 0;
+}
+
+#social
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    z-index: 1;
+}
+#social>a
+{
+    color: white;
+    margin-left: 10px;
+}
+
+#agentInfo
+{
+    background-color: aqua;
+    font-family: MontserratSubrayada-Bold;
+}
+#howItWorks
+{
+    background-color: aqua;
+    margin-bottom: 80px;
+    padding-bottom: 50px;
+}
+
+.custom-icon
+{
+    font-size: 40px;
+}
+
+
+#services-section
+{
+    background-color: #ccc;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.text-primary
+{
+    font-size: 50px;
+    color: aqua !important;
+}
+.unit-4>div>p>a
+{
+    color: aqua !important;
+    text-decoration: none;
+}
+
+/* Testmonials */
+#testmonialsImage
+{
+    width: 50px;
+    height: 50px;
+    border: 10px;
+    border-radius: 30px;
+}
+
+/**********************************end of agents part  *******************************/
+
+
+
+/**********************************start of about part  *******************************/
+
+
+/**********************************end of about part  *******************************/
+
+
+/**********************************start of news part  *******************************/
+
+#newsImage
+{
+    object-fit: cover;
+}
+
+/**********************************end of news part  *******************************/
+.h-entry>h2>a
+{
+    text-decoration: none;
+}
+.h-entry>div>a
+{
+    text-decoration: none;
+    color: aqua;
+}
+/**********************************start of contact part  *******************************/
+.p-4>p>a
+{
+    color: aqua;
+    text-decoration: none;
+}
+#sendMessage
+{
+    background-color: aqua;
+    border-color: aqua;
+}
+#sendMessage:hover
+{
+    background-color: black;
+    border-color: black;
+}
+
+
+
+/**********************************start of contact part  *******************************/
+#ourLocation
+{
+    color: aqua;
+}
+
+/**********************************end of contact part  *******************************/
+
+
+/**********************************start of footer part  *******************************/
+.site-footer
+{
+    background-color: black;
+    padding-top: 50px;
+    color: white;
+}
+.list-unstyled>li>a
+{
+    text-decoration: none;
+    color: aqua;
+}
+.list-unstyled>li>a:hover
+{
+    text-decoration: none;
+    color: white;
+}
+#button-addon2
+{
+    background-color: aqua;
+    border-color: aqua;
+}
+#button-addon2:hover
+{
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+
+/**********************************end of footer part  *******************************/
